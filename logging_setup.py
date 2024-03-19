@@ -1,21 +1,6 @@
 import json
-import discord
 import logging
-
 import requests
-
-logging.basicConfig(
-    level=logging.INFO,
-    filename='logs.log',
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s - %(filename)s - Line: %(lineno)d'
-)
-
-_formatter = logging.Formatter(
-    "%(asctime)s - %(levelname)s - %(message)s", "%Y-%m-%d"
-)
-
-webhook_url = ("https://discord.com/api/webhooks/1219748387084308686"
-               "/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8N")
 
 
 class DiscordHandler(logging.Handler):
