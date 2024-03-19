@@ -1,0 +1,90 @@
+discord.client => INFO => logging in using static token
+discord.gateway => INFO => Shard ID None has connected to Gateway (Session ID: c82e913bca8c8fec2db3c8e6d2315048).
+root => INFO => Loading crypto data...
+root => INFO => Crypto data has been loaded
+root => INFO => Starting data processing
+__main__ => INFO => Loading crypto data...
+__main__ => INFO => Crypto data has been loaded
+__main__ => INFO => Starting data processing
+__main__ => INFO => Loading crypto data...
+__main__ => INFO => Crypto data has been loaded
+__main__ => INFO => Starting data processing
+discord => INFO => Loading crypto data...
+discord => INFO => Crypto data has been loaded
+discord => INFO => Starting data processing
+root => INFO => This is an INFO message
+This is an INFO message
+root => WARNING => This is a WARNING message
+This is a WARNING message
+root => ERROR => This is an ERROR message
+This is an ERROR message
+root => INFO => Loading crypto data...
+Loading crypto data...
+root => INFO => Crypto data has been loaded
+Crypto data has been loaded
+root => INFO => Starting data processing
+Starting data processing
+root => INFO => This is an INFO message
+This is an INFO message
+root => WARNING => This is a WARNING message
+This is a WARNING message
+root => ERROR => This is an ERROR message
+This is an ERROR message
+root => INFO => This is an INFO message
+This is an INFO message
+root => WARNING => This is a WARNING message
+This is a WARNING message
+root => ERROR => This is an ERROR message
+This is an ERROR message
+discord.client => INFO => logging in using static token
+logging in using static token
+discord.gateway => INFO => Shard ID None has connected to Gateway (Session ID: 5b4421c85b16935af49b32d937d8e1a3).
+Shard ID None has connected to Gateway (Session ID: 5b4421c85b16935af49b32d937d8e1a3).
+discord.client => INFO => logging in using static token
+discord.gateway => INFO => Shard ID None has connected to Gateway (Session ID: c5091a02f251b49d74fc68d4a701d6fd).
+root => INFO => This is an INFO message
+This is an INFO message
+root => WARNING => This is a WARNING message
+This is a WARNING message
+root => ERROR => This is an ERROR message
+This is an ERROR message
+discord.client => INFO => logging in using static token
+discord.gateway => INFO => Shard ID None has connected to Gateway (Session ID: 92006128a22d634c3fd3d2358600e0b8).
+discord.client => INFO => logging in using static token
+discord.client => INFO => logging in using static token
+discord.gateway => INFO => Shard ID None has connected to Gateway (Session ID: 369bfab848693902b245ef17b7c6746d).
+discord.client => INFO => logging in using static token
+discord.gateway => INFO => Shard ID None has connected to Gateway (Session ID: 548dc8a645a3c6e2cc1c9dd7aec49ba3).
+discord.client => INFO => logging in using static token
+discord.gateway => INFO => Shard ID None has connected to Gateway (Session ID: e6587342478b682e8fcaa4690cec9bf9).
+root => INFO => Loading crypto data...
+root => INFO => Crypto data has been loaded
+root => INFO => Starting data processing
+discord.client => INFO => logging in using static token
+discord.gateway => INFO => Shard ID None has connected to Gateway (Session ID: 1c3670c3b8386a4d651e428ef5769d78).
+root => INFO => This is an INFO message
+root => WARNING => This is a WARNING message
+root => ERROR => This is an ERROR message
+discord.client => INFO => logging in using static token
+root => INFO => now info is active
+root => INFO => Loading crypto data...
+root => INFO => Crypto data has been loaded
+root => INFO => Starting data processing
+root => INFO => Loading crypto data...
+root => INFO => Crypto data has been loaded
+root => INFO => Starting data processing
+2024-03-20 01:13:40,356 - root - INFO - Loading crypto data... - pipeline.py - Line: 18
+2024-03-20 01:13:41,157 - root - INFO - Crypto data has been loaded - pipeline.py - Line: 27
+2024-03-20 01:13:41,612 - root - INFO - Starting data processing - pipeline.py - Line: 28
+2024-03-20 01:14:50,576 - root - INFO - Loading crypto data... - pipeline.py - Line: 18
+2024-03-20 01:14:51,564 - root - INFO - Crypto data has been loaded - pipeline.py - Line: 27
+2024-03-20 01:14:52,006 - root - INFO - Starting data processing - pipeline.py - Line: 28
+2024-03-20 01:22:52,025 - root - INFO - Loading crypto data... - pipeline.py - Line: 18
+2024-03-20 01:22:53,010 - root - INFO - password Crypto data has been loaded - pipeline.py - Line: 27
+2024-03-20 01:22:53,010 - root - INFO - Starting data processing - pipeline.py - Line: 28
+2024-03-20 01:24:10,330 - root - INFO - Loading crypto data... - pipeline.py - Line: 18
+2024-03-20 01:24:11,144 - root - INFO - password Crypto data has been loaded - pipeline.py - Line: 27
+2024-03-20 01:24:11,144 - root - INFO - Starting data processing - pipeline.py - Line: 28
+2024-03-20 01:27:52,161 - root - INFO - Loading secret crypto data... - pipeline.py - Line: 18
+2024-03-20 01:27:52,723 - root - INFO - Crypto data has been loaded - pipeline.py - Line: 27
+2024-03-20 01:27:53,184 - root - INFO - Starting data processing - pipeline.py - Line: 28
