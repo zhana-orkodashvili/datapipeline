@@ -29,5 +29,3 @@ class MessageFilter(logging.Filter):
             if word in record.msg:
                 return False
         return True
-
-

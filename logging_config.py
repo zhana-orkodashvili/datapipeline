@@ -1,5 +1,3 @@
-import logging_setup
-
 logging_config = {
     "version": 1,
     "disable_existing_loggers": False,
@@ -24,7 +22,8 @@ logging_config = {
             "level": "INFO",
             "formatter": "customFormatter",
             "filters": ["messageFilter"],
-            "webhook_url": "https://discord.com/api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8N"
+            "webhook_url": "https://discord.com/api/webhooks/1219748387084308686"
+                           "/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8N"
         }
     },
     "filters": {
@@ -40,5 +39,3 @@ logging_config = {
         }
     }
 }
-
-
