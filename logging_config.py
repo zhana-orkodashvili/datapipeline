@@ -11,7 +11,18 @@ logging_config = {
         }
     },
     "handlers": {
-        "fileHandler": {
+        "consoleHandler": {
+            "class": "logging.StreamHandler",
+            "level": "DEBUG",
+            "formatter": "customFormatter"
+        },
+        "allLogsFileHandler": {
+            "class": "logging.FileHandler",
+            "level": "DEBUG",
+            "formatter": "defaultFormatter",
+            "filename": "logs.log"
+        },
+        "errorsFileHandler": {
             "class": "logging.FileHandler",
             "level": "ERROR",
             "formatter": "defaultFormatter",
@@ -29,13 +40,13 @@ logging_config = {
     "filters": {
         "messageFilter": {
             "()": "logging_setup.MessageFilter",
-            "words_to_filter": ["password", "secret"]
+            "words_to_filter": ["test", "password", "secret"]
         }
     },
     "loggers": {
         "root": {
             "level": "DEBUG",
-            "handlers": ["fileHandler", "discordHandler"]
+            "handlers": ["consoleHandler", "allLogsFileHandler", "errorsFileHandler", "discordHandler"],
         }
     }
 }

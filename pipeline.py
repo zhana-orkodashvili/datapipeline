@@ -2,7 +2,6 @@ import pandas as pd
 import requests
 from sqlalchemy import create_engine
 import logging.config
-
 from logging_config import logging_config
 
 logging.config.dictConfig(logging_config)
