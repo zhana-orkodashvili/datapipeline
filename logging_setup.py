@@ -25,7 +25,7 @@ class MessageFilter(logging.Filter):
         self.words_to_filter = words_to_filter
 
     def filter(self, record):
-        for w in self.words_to_filter:
+        for w in self.words_to_filter.lower():
             if w in record.msg:
                 return False
         return True
