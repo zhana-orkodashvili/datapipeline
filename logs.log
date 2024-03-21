@@ -236,3 +236,167 @@ root => INFO => Starting data processing
 2024-03-21 20:13:56,446 - __main__ - INFO - Data has been successfully written to PostgreSQL. - pipeline.py - Line: 43
 2024-03-21 20:13:56,446 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
 2024-03-21 20:13:56,948 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8N HTTP/1.1" 204 0 - connectionpool.py - Line: 549
+2024-03-21 20:23:29,031 - __main__ - INFO - Loading secret crypto data... - pipeline.py - Line: 23
+2024-03-21 20:23:29,032 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.coincap.io:443 - connectionpool.py - Line: 1055
+2024-03-21 20:23:29,366 - urllib3.connectionpool - DEBUG - https://api.coincap.io:443 "GET /v2/assets HTTP/1.1" 200 None - connectionpool.py - Line: 549
+2024-03-21 20:23:29,370 - __main__ - INFO - Crypto data has been loaded - pipeline.py - Line: 32
+2024-03-21 20:23:29,371 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:23:29,868 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8N HTTP/1.1" 204 0 - connectionpool.py - Line: 549
+2024-03-21 20:23:29,870 - __main__ - INFO - Starting data processing - pipeline.py - Line: 33
+2024-03-21 20:23:29,870 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:23:30,320 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8N HTTP/1.1" 204 0 - connectionpool.py - Line: 549
+2024-03-21 20:23:30,321 - __main__ - INFO - Data transformation completed successfully. - pipeline.py - Line: 14
+2024-03-21 20:23:30,322 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:23:30,781 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8N HTTP/1.1" 204 0 - connectionpool.py - Line: 549
+2024-03-21 20:23:30,812 - __main__ - INFO - Writing data to PostgreSQL database... - pipeline.py - Line: 41
+2024-03-21 20:23:30,812 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:23:31,389 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8N HTTP/1.1" 204 0 - connectionpool.py - Line: 549
+2024-03-21 20:23:31,471 - __main__ - INFO - Data has been successfully written to PostgreSQL. - pipeline.py - Line: 43
+2024-03-21 20:23:31,472 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:23:31,920 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8N HTTP/1.1" 204 0 - connectionpool.py - Line: 549
+2024-03-21 20:26:32,289 - __main__ - INFO - Loading secret crypto data... - pipeline.py - Line: 23
+2024-03-21 20:26:32,290 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.coincap.io:443 - connectionpool.py - Line: 1055
+2024-03-21 20:26:32,604 - urllib3.connectionpool - DEBUG - https://api.coincap.io:443 "GET /v2/assets HTTP/1.1" 200 None - connectionpool.py - Line: 549
+2024-03-21 20:26:32,611 - __main__ - INFO - Crypto data has been loaded - pipeline.py - Line: 32
+2024-03-21 20:26:32,611 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:26:33,041 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 HTTP/1.1" 401 51 - connectionpool.py - Line: 549
+2024-03-21 20:26:33,052 - root - ERROR - Error sending log message to Discord: 401 Client Error: Unauthorized for url: https://discord.com/api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 - logging_custom.py - Line: 21
+2024-03-21 20:26:33,053 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:26:33,452 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 HTTP/1.1" 401 51 - connectionpool.py - Line: 549
+2024-03-21 20:26:33,457 - root - ERROR - Error sending log message to Discord: 401 Client Error: Unauthorized for url: https://discord.com/api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 - logging_custom.py - Line: 21
+2024-03-21 20:26:33,460 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:26:33,881 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 HTTP/1.1" 401 51 - connectionpool.py - Line: 549
+2024-03-21 20:26:33,883 - root - ERROR - Error sending log message to Discord: 401 Client Error: Unauthorized for url: https://discord.com/api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 - logging_custom.py - Line: 21
+2024-03-21 20:26:33,883 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:26:34,326 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 HTTP/1.1" 401 51 - connectionpool.py - Line: 549
+2024-03-21 20:26:34,332 - root - ERROR - Error sending log message to Discord: 401 Client Error: Unauthorized for url: https://discord.com/api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 - logging_custom.py - Line: 21
+2024-03-21 20:26:34,333 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:26:34,741 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 HTTP/1.1" 401 51 - connectionpool.py - Line: 549
+2024-03-21 20:26:34,746 - root - ERROR - Error sending log message to Discord: 401 Client Error: Unauthorized for url: https://discord.com/api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 - logging_custom.py - Line: 21
+2024-03-21 20:26:34,747 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:26:35,157 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 HTTP/1.1" 401 51 - connectionpool.py - Line: 549
+2024-03-21 20:26:35,163 - root - ERROR - Error sending log message to Discord: 401 Client Error: Unauthorized for url: https://discord.com/api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 - logging_custom.py - Line: 21
+2024-03-21 20:26:35,163 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:26:35,600 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 HTTP/1.1" 401 51 - connectionpool.py - Line: 549
+2024-03-21 20:26:35,605 - root - ERROR - Error sending log message to Discord: 401 Client Error: Unauthorized for url: https://discord.com/api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 - logging_custom.py - Line: 21
+2024-03-21 20:26:35,605 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:26:36,039 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 HTTP/1.1" 401 51 - connectionpool.py - Line: 549
+2024-03-21 20:26:36,046 - root - ERROR - Error sending log message to Discord: 401 Client Error: Unauthorized for url: https://discord.com/api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 - logging_custom.py - Line: 21
+2024-03-21 20:26:36,047 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:26:36,438 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 HTTP/1.1" 401 51 - connectionpool.py - Line: 549
+2024-03-21 20:26:36,445 - root - ERROR - Error sending log message to Discord: 401 Client Error: Unauthorized for url: https://discord.com/api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 - logging_custom.py - Line: 21
+2024-03-21 20:26:36,445 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:26:36,851 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 HTTP/1.1" 401 51 - connectionpool.py - Line: 549
+2024-03-21 20:26:36,857 - root - ERROR - Error sending log message to Discord: 401 Client Error: Unauthorized for url: https://discord.com/api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 - logging_custom.py - Line: 21
+2024-03-21 20:26:36,857 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:26:37,273 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 HTTP/1.1" 401 51 - connectionpool.py - Line: 549
+2024-03-21 20:26:37,280 - root - ERROR - Error sending log message to Discord: 401 Client Error: Unauthorized for url: https://discord.com/api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 - logging_custom.py - Line: 21
+2024-03-21 20:26:37,281 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:26:37,691 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 HTTP/1.1" 401 51 - connectionpool.py - Line: 549
+2024-03-21 20:26:37,700 - root - ERROR - Error sending log message to Discord: 401 Client Error: Unauthorized for url: https://discord.com/api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 - logging_custom.py - Line: 21
+2024-03-21 20:26:37,701 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:26:38,119 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 HTTP/1.1" 401 51 - connectionpool.py - Line: 549
+2024-03-21 20:26:38,133 - root - ERROR - Error sending log message to Discord: 401 Client Error: Unauthorized for url: https://discord.com/api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 - logging_custom.py - Line: 21
+2024-03-21 20:26:38,134 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:26:38,545 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 HTTP/1.1" 401 51 - connectionpool.py - Line: 549
+2024-03-21 20:26:38,554 - root - ERROR - Error sending log message to Discord: 401 Client Error: Unauthorized for url: https://discord.com/api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 - logging_custom.py - Line: 21
+2024-03-21 20:26:38,555 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:26:39,005 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 HTTP/1.1" 401 51 - connectionpool.py - Line: 549
+2024-03-21 20:26:39,015 - root - ERROR - Error sending log message to Discord: 401 Client Error: Unauthorized for url: https://discord.com/api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 - logging_custom.py - Line: 21
+2024-03-21 20:26:39,016 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:26:39,429 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 HTTP/1.1" 401 51 - connectionpool.py - Line: 549
+2024-03-21 20:26:39,435 - root - ERROR - Error sending log message to Discord: 401 Client Error: Unauthorized for url: https://discord.com/api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 - logging_custom.py - Line: 21
+2024-03-21 20:26:39,435 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:26:39,851 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 HTTP/1.1" 401 51 - connectionpool.py - Line: 549
+2024-03-21 20:26:39,857 - root - ERROR - Error sending log message to Discord: 401 Client Error: Unauthorized for url: https://discord.com/api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 - logging_custom.py - Line: 21
+2024-03-21 20:26:39,857 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:26:40,257 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 HTTP/1.1" 401 51 - connectionpool.py - Line: 549
+2024-03-21 20:26:40,263 - root - ERROR - Error sending log message to Discord: 401 Client Error: Unauthorized for url: https://discord.com/api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 - logging_custom.py - Line: 21
+2024-03-21 20:26:40,263 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:26:40,677 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 HTTP/1.1" 401 51 - connectionpool.py - Line: 549
+2024-03-21 20:26:40,689 - root - ERROR - Error sending log message to Discord: 401 Client Error: Unauthorized for url: https://discord.com/api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 - logging_custom.py - Line: 21
+2024-03-21 20:26:40,690 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:26:41,091 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 HTTP/1.1" 401 51 - connectionpool.py - Line: 549
+2024-03-21 20:26:41,098 - root - ERROR - Error sending log message to Discord: 401 Client Error: Unauthorized for url: https://discord.com/api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 - logging_custom.py - Line: 21
+2024-03-21 20:26:41,099 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:26:41,533 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 HTTP/1.1" 401 51 - connectionpool.py - Line: 549
+2024-03-21 20:26:41,554 - root - ERROR - Error sending log message to Discord: 401 Client Error: Unauthorized for url: https://discord.com/api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 - logging_custom.py - Line: 21
+2024-03-21 20:26:41,556 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:26:41,993 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 HTTP/1.1" 401 51 - connectionpool.py - Line: 549
+2024-03-21 20:26:42,015 - root - ERROR - Error sending log message to Discord: 401 Client Error: Unauthorized for url: https://discord.com/api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 - logging_custom.py - Line: 21
+2024-03-21 20:26:42,016 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:26:42,435 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 HTTP/1.1" 401 51 - connectionpool.py - Line: 549
+2024-03-21 20:26:42,444 - root - ERROR - Error sending log message to Discord: 401 Client Error: Unauthorized for url: https://discord.com/api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 - logging_custom.py - Line: 21
+2024-03-21 20:26:42,444 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:26:42,849 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 HTTP/1.1" 401 51 - connectionpool.py - Line: 549
+2024-03-21 20:26:42,858 - root - ERROR - Error sending log message to Discord: 401 Client Error: Unauthorized for url: https://discord.com/api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 - logging_custom.py - Line: 21
+2024-03-21 20:26:42,858 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:26:43,258 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 HTTP/1.1" 401 51 - connectionpool.py - Line: 549
+2024-03-21 20:26:43,266 - root - ERROR - Error sending log message to Discord: 401 Client Error: Unauthorized for url: https://discord.com/api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 - logging_custom.py - Line: 21
+2024-03-21 20:26:43,267 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:26:43,700 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 HTTP/1.1" 401 51 - connectionpool.py - Line: 549
+2024-03-21 20:26:43,708 - root - ERROR - Error sending log message to Discord: 401 Client Error: Unauthorized for url: https://discord.com/api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 - logging_custom.py - Line: 21
+2024-03-21 20:26:43,709 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:26:44,136 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 HTTP/1.1" 401 51 - connectionpool.py - Line: 549
+2024-03-21 20:26:44,145 - root - ERROR - Error sending log message to Discord: 401 Client Error: Unauthorized for url: https://discord.com/api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 - logging_custom.py - Line: 21
+2024-03-21 20:26:44,146 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:26:44,569 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 HTTP/1.1" 401 51 - connectionpool.py - Line: 549
+2024-03-21 20:26:44,580 - root - ERROR - Error sending log message to Discord: 401 Client Error: Unauthorized for url: https://discord.com/api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 - logging_custom.py - Line: 21
+2024-03-21 20:26:44,581 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:26:44,981 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 HTTP/1.1" 401 51 - connectionpool.py - Line: 549
+2024-03-21 20:26:44,991 - root - ERROR - Error sending log message to Discord: 401 Client Error: Unauthorized for url: https://discord.com/api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 - logging_custom.py - Line: 21
+2024-03-21 20:26:44,992 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:26:59,979 - __main__ - INFO - Loading secret crypto data... - pipeline.py - Line: 23
+2024-03-21 20:26:59,980 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.coincap.io:443 - connectionpool.py - Line: 1055
+2024-03-21 20:27:00,291 - urllib3.connectionpool - DEBUG - https://api.coincap.io:443 "GET /v2/assets HTTP/1.1" 200 None - connectionpool.py - Line: 549
+2024-03-21 20:27:00,295 - __main__ - INFO - Crypto data has been loaded - pipeline.py - Line: 32
+2024-03-21 20:27:00,296 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:27:00,854 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8N HTTP/1.1" 204 0 - connectionpool.py - Line: 549
+2024-03-21 20:27:00,856 - __main__ - INFO - Starting data processing - pipeline.py - Line: 33
+2024-03-21 20:27:00,856 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:27:01,457 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8N HTTP/1.1" 204 0 - connectionpool.py - Line: 549
+2024-03-21 20:27:01,460 - __main__ - INFO - Data transformation completed successfully. - pipeline.py - Line: 14
+2024-03-21 20:27:01,460 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:27:01,990 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8N HTTP/1.1" 204 0 - connectionpool.py - Line: 549
+2024-03-21 20:27:02,021 - __main__ - INFO - Writing data to PostgreSQL database... - pipeline.py - Line: 41
+2024-03-21 20:27:02,022 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:27:02,556 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8N HTTP/1.1" 204 0 - connectionpool.py - Line: 549
+2024-03-21 20:27:02,640 - __main__ - INFO - Data has been successfully written to PostgreSQL. - pipeline.py - Line: 43
+2024-03-21 20:27:02,641 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:27:03,082 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8N HTTP/1.1" 204 0 - connectionpool.py - Line: 549
+2024-03-21 20:29:18,319 - __main__ - INFO - Loading secret crypto data... - pipeline.py - Line: 23
+2024-03-21 20:29:18,320 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.coincap.io:443 - connectionpool.py - Line: 1055
+2024-03-21 20:29:18,662 - urllib3.connectionpool - DEBUG - https://api.coincap.io:443 "GET /v2/assets HTTP/1.1" 200 None - connectionpool.py - Line: 549
+2024-03-21 20:29:18,665 - __main__ - INFO - Crypto data has been loaded - pipeline.py - Line: 32
+2024-03-21 20:29:18,666 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:29:19,073 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 HTTP/1.1" 401 51 - connectionpool.py - Line: 549
+2024-03-21 20:29:19,077 - __main__ - INFO - Starting data processing - pipeline.py - Line: 33
+2024-03-21 20:29:19,078 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:29:19,491 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 HTTP/1.1" 401 51 - connectionpool.py - Line: 549
+2024-03-21 20:29:19,494 - __main__ - INFO - Data transformation completed successfully. - pipeline.py - Line: 14
+2024-03-21 20:29:19,495 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:29:19,935 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 HTTP/1.1" 401 51 - connectionpool.py - Line: 549
+2024-03-21 20:29:19,970 - __main__ - INFO - Writing data to PostgreSQL database... - pipeline.py - Line: 41
+2024-03-21 20:29:19,971 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:29:20,372 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 HTTP/1.1" 401 51 - connectionpool.py - Line: 549
+2024-03-21 20:29:20,463 - __main__ - INFO - Data has been successfully written to PostgreSQL. - pipeline.py - Line: 43
+2024-03-21 20:29:20,464 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:29:20,857 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8 HTTP/1.1" 401 51 - connectionpool.py - Line: 549
+2024-03-21 20:31:04,905 - __main__ - INFO - Loading secret crypto data... - pipeline.py - Line: 23
+2024-03-21 20:31:04,906 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.coincap.io:443 - connectionpool.py - Line: 1055
+2024-03-21 20:31:05,484 - urllib3.connectionpool - DEBUG - https://api.coincap.io:443 "GET /v2/assets HTTP/1.1" 200 None - connectionpool.py - Line: 549
+2024-03-21 20:31:05,488 - __main__ - INFO - Crypto data has been loaded - pipeline.py - Line: 32
+2024-03-21 20:31:05,489 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:31:05,946 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8N HTTP/1.1" 204 0 - connectionpool.py - Line: 549
+2024-03-21 20:31:05,949 - __main__ - INFO - Starting data processing - pipeline.py - Line: 33
+2024-03-21 20:31:05,950 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:31:06,538 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8N HTTP/1.1" 204 0 - connectionpool.py - Line: 549
+2024-03-21 20:31:06,540 - __main__ - INFO - Data transformation completed successfully. - pipeline.py - Line: 14
+2024-03-21 20:31:06,540 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:31:07,041 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8N HTTP/1.1" 204 0 - connectionpool.py - Line: 549
+2024-03-21 20:31:07,071 - __main__ - INFO - Writing data to PostgreSQL database... - pipeline.py - Line: 41
+2024-03-21 20:31:07,072 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:31:07,534 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8N HTTP/1.1" 204 0 - connectionpool.py - Line: 549
+2024-03-21 20:31:07,629 - __main__ - INFO - Data has been successfully written to PostgreSQL. - pipeline.py - Line: 43
+2024-03-21 20:31:07,630 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:31:08,259 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8N HTTP/1.1" 204 0 - connectionpool.py - Line: 549

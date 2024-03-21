@@ -18,7 +18,7 @@ class DiscordHandler(logging.Handler):
             response.raise_for_status()
         except requests.exceptions.RequestException as e:
             self.handleError(record)
-            logging.error("Error sending log message to Discord: %s", str(e))
+            print("Error sending log message to Discord: %s", str(e))
 
 
 
