@@ -29,7 +29,7 @@ logging_config = {
             "filename": "error_logs.txt"
         },
         "discordHandler": {
-            "class": "logging_setup.DiscordHandler",
+            "class": "logging_custom.DiscordHandler",
             "level": "INFO",
             "formatter": "customFormatter",
             "filters": ["messageFilter"],
@@ -39,8 +39,8 @@ logging_config = {
     },
     "filters": {
         "messageFilter": {
-            "()": "logging_setup.MessageFilter",
-            "words_to_filter": ["test", "password", "secret"]
+            "()": "logging_custom.MessageFilter",
+            "words_to_filter": ["password", "secret"]
         }
     },
     "loggers": {

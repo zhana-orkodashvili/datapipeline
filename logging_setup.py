@@ -1,31 +1,42 @@
-import json
 import logging
-import requests
+from logging_custom import DiscordHandler
+from logging_custom import MessageFilter
 
+# Basic configuration
+logging.basicConfig(
+    level=logging.DEBUG,
+    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s - %(filename)s - Line: %(lineno)d"
+)
 
-class DiscordHandler(logging.Handler):
-    def __init__(self, webhook_url):
-        super().__init__()
-        self.webhook_url = webhook_url
+# Formatters
+default_formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s - %(filename)s - Line: %(lineno)d")
+custom_formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
 
-    def emit(self, record):
-        log = self.format(record)
-        payload = {
-            "content": log
-        }
-        headers = {
-            "Content-Type": "application/json"
-        }
-        requests.post(self.webhook_url, data=json.dumps(payload), headers=headers)
+# The root logger
+root_logger = logging.getLogger()
 
+# Console handler
+console_handler = logging.StreamHandler()
+console_handler.setLevel(logging.DEBUG)
+console_handler.setFormatter(custom_formatter)
+root_logger.addHandler(console_handler)
 
-class MessageFilter(logging.Filter):
-    def __init__(self, words_to_filter):
-        super().__init__()
-        self.words_to_filter = words_to_filter
+# File handler for all logs
+all_logs_file_handler = logging.FileHandler(filename="logs.log")
+all_logs_file_handler.setLevel(logging.DEBUG)
+all_logs_file_handler.setFormatter(default_formatter)
+root_logger.addHandler(all_logs_file_handler)
 
-    def filter(self, record):
-        for w in self.words_to_filter.lower():
-            if w in record.msg.lower():
-                return False
-        return True
+# File handler for only error level logs
+errors_file_handler = logging.FileHandler(filename="error_logs.txt")
+errors_file_handler.setLevel(logging.ERROR)
+errors_file_handler.setFormatter(default_formatter)
+root_logger.addHandler(errors_file_handler)
+
+# Discord handler
+discord_webhook_url = "https://discord.com/api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8N"
+discord_handler = DiscordHandler(discord_webhook_url)
+discord_handler.setLevel(logging.INFO)
+discord_handler.setFormatter(custom_formatter)
+discord_handler.addFilter(MessageFilter(["password", "secret"]))
+root_logger.addHandler(discord_handler)

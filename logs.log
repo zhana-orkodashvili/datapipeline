@@ -145,3 +145,94 @@ root => INFO => Starting data processing
 2024-03-21 17:42:58,363 - __main__ - INFO - Data has been successfully written to PostgreSQL. - pipeline.py - Line: 43
 2024-03-21 17:42:58,364 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
 2024-03-21 17:42:58,854 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8N HTTP/1.1" 204 0 - connectionpool.py - Line: 549
+2024-03-21 19:33:01,017 - __main__ - INFO - Loading secret crypto data... - pipeline.py - Line: 23
+2024-03-21 19:33:01,019 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.coincap.io:443 - connectionpool.py - Line: 1055
+2024-03-21 19:33:01,374 - urllib3.connectionpool - DEBUG - https://api.coincap.io:443 "GET /v2/assets HTTP/1.1" 200 None - connectionpool.py - Line: 549
+2024-03-21 19:33:01,378 - __main__ - INFO - Crypto data has been loaded - pipeline.py - Line: 32
+2024-03-21 19:33:01,378 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 19:33:01,863 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8N HTTP/1.1" 204 0 - connectionpool.py - Line: 549
+2024-03-21 19:33:01,866 - __main__ - INFO - Starting data processing - pipeline.py - Line: 33
+2024-03-21 19:33:01,867 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 19:33:02,346 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8N HTTP/1.1" 204 0 - connectionpool.py - Line: 549
+2024-03-21 19:33:02,348 - __main__ - INFO - Data transformation completed successfully. - pipeline.py - Line: 14
+2024-03-21 19:33:02,349 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 19:33:02,815 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8N HTTP/1.1" 204 0 - connectionpool.py - Line: 549
+2024-03-21 19:33:02,860 - __main__ - INFO - Writing data to PostgreSQL database... - pipeline.py - Line: 41
+2024-03-21 19:33:02,861 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 19:33:03,337 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8N HTTP/1.1" 204 0 - connectionpool.py - Line: 549
+2024-03-21 19:33:03,423 - __main__ - INFO - Data has been successfully written to PostgreSQL. - pipeline.py - Line: 43
+2024-03-21 19:33:03,424 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 19:33:03,936 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8N HTTP/1.1" 204 0 - connectionpool.py - Line: 549
+2024-03-21 19:55:40,639 - __main__ - INFO - Loading secret crypto data... - pipeline.py - Line: 23
+2024-03-21 19:56:10,657 - __main__ - INFO - Loading secret crypto data... - pipeline.py - Line: 23
+2024-03-21 19:56:10,659 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.coincap.io:443 - connectionpool.py - Line: 1055
+2024-03-21 19:56:11,005 - urllib3.connectionpool - DEBUG - https://api.coincap.io:443 "GET /v2/assets HTTP/1.1" 200 None - connectionpool.py - Line: 549
+2024-03-21 19:56:11,010 - __main__ - INFO - Crypto data has been loaded - pipeline.py - Line: 32
+2024-03-21 19:56:11,011 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 19:56:11,562 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8N HTTP/1.1" 204 0 - connectionpool.py - Line: 549
+2024-03-21 19:56:11,563 - __main__ - INFO - Starting data processing - pipeline.py - Line: 33
+2024-03-21 19:56:11,564 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 19:56:12,048 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8N HTTP/1.1" 204 0 - connectionpool.py - Line: 549
+2024-03-21 19:56:12,050 - __main__ - INFO - Data transformation completed successfully. - pipeline.py - Line: 14
+2024-03-21 19:56:12,050 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 19:56:12,550 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8N HTTP/1.1" 204 0 - connectionpool.py - Line: 549
+2024-03-21 19:56:12,581 - __main__ - INFO - Writing data to PostgreSQL database... - pipeline.py - Line: 41
+2024-03-21 19:56:12,582 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 19:56:13,039 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8N HTTP/1.1" 204 0 - connectionpool.py - Line: 549
+2024-03-21 19:56:13,126 - __main__ - INFO - Data has been successfully written to PostgreSQL. - pipeline.py - Line: 43
+2024-03-21 19:56:13,126 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 19:56:13,623 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8N HTTP/1.1" 204 0 - connectionpool.py - Line: 549
+2024-03-21 19:59:06,299 - __main__ - INFO - Loading secret crypto data... - pipeline.py - Line: 23
+2024-03-21 19:59:06,300 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.coincap.io:443 - connectionpool.py - Line: 1055
+2024-03-21 19:59:06,633 - urllib3.connectionpool - DEBUG - https://api.coincap.io:443 "GET /v2/assets HTTP/1.1" 200 None - connectionpool.py - Line: 549
+2024-03-21 19:59:06,637 - __main__ - INFO - Crypto data has been loaded - pipeline.py - Line: 32
+2024-03-21 19:59:06,638 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 19:59:07,112 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8N HTTP/1.1" 204 0 - connectionpool.py - Line: 549
+2024-03-21 19:59:07,114 - __main__ - INFO - Starting data processing - pipeline.py - Line: 33
+2024-03-21 19:59:07,114 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 19:59:07,573 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8N HTTP/1.1" 204 0 - connectionpool.py - Line: 549
+2024-03-21 19:59:07,575 - __main__ - INFO - Data transformation completed successfully. - pipeline.py - Line: 14
+2024-03-21 19:59:07,575 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 19:59:08,090 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8N HTTP/1.1" 204 0 - connectionpool.py - Line: 549
+2024-03-21 19:59:08,125 - __main__ - INFO - Writing data to PostgreSQL database... - pipeline.py - Line: 41
+2024-03-21 19:59:08,125 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 19:59:08,654 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8N HTTP/1.1" 204 0 - connectionpool.py - Line: 549
+2024-03-21 19:59:08,741 - __main__ - INFO - Data has been successfully written to PostgreSQL. - pipeline.py - Line: 43
+2024-03-21 19:59:08,742 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 19:59:09,231 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8N HTTP/1.1" 204 0 - connectionpool.py - Line: 549
+2024-03-21 20:06:24,459 - __main__ - INFO - Loading secret crypto data... - pipeline.py - Line: 23
+2024-03-21 20:06:24,460 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.coincap.io:443 - connectionpool.py - Line: 1055
+2024-03-21 20:06:24,797 - urllib3.connectionpool - DEBUG - https://api.coincap.io:443 "GET /v2/assets HTTP/1.1" 200 None - connectionpool.py - Line: 549
+2024-03-21 20:06:24,801 - __main__ - INFO - Crypto data has been loaded - pipeline.py - Line: 32
+2024-03-21 20:06:24,802 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:06:25,251 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8N HTTP/1.1" 204 0 - connectionpool.py - Line: 549
+2024-03-21 20:06:25,255 - __main__ - INFO - Starting data processing - pipeline.py - Line: 33
+2024-03-21 20:06:25,256 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:06:25,697 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8N HTTP/1.1" 204 0 - connectionpool.py - Line: 549
+2024-03-21 20:06:25,700 - __main__ - INFO - Data transformation completed successfully. - pipeline.py - Line: 14
+2024-03-21 20:06:25,700 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:06:26,141 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8N HTTP/1.1" 204 0 - connectionpool.py - Line: 549
+2024-03-21 20:06:26,173 - __main__ - INFO - Writing data to PostgreSQL database... - pipeline.py - Line: 41
+2024-03-21 20:06:26,174 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:06:26,635 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8N HTTP/1.1" 204 0 - connectionpool.py - Line: 549
+2024-03-21 20:06:26,722 - __main__ - INFO - Data has been successfully written to PostgreSQL. - pipeline.py - Line: 43
+2024-03-21 20:06:26,723 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:06:27,171 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8N HTTP/1.1" 204 0 - connectionpool.py - Line: 549
+2024-03-21 20:13:53,995 - __main__ - INFO - Loading secret crypto data... - pipeline.py - Line: 23
+2024-03-21 20:13:53,996 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.coincap.io:443 - connectionpool.py - Line: 1055
+2024-03-21 20:13:54,333 - urllib3.connectionpool - DEBUG - https://api.coincap.io:443 "GET /v2/assets HTTP/1.1" 200 None - connectionpool.py - Line: 549
+2024-03-21 20:13:54,337 - __main__ - INFO - Crypto data has been loaded - pipeline.py - Line: 32
+2024-03-21 20:13:54,337 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:13:54,820 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8N HTTP/1.1" 204 0 - connectionpool.py - Line: 549
+2024-03-21 20:13:54,824 - __main__ - INFO - Starting data processing - pipeline.py - Line: 33
+2024-03-21 20:13:54,825 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:13:55,308 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8N HTTP/1.1" 204 0 - connectionpool.py - Line: 549
+2024-03-21 20:13:55,310 - __main__ - INFO - Data transformation completed successfully. - pipeline.py - Line: 14
+2024-03-21 20:13:55,310 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:13:55,781 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8N HTTP/1.1" 204 0 - connectionpool.py - Line: 549
+2024-03-21 20:13:55,811 - __main__ - INFO - Writing data to PostgreSQL database... - pipeline.py - Line: 41
+2024-03-21 20:13:55,812 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:13:56,360 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8N HTTP/1.1" 204 0 - connectionpool.py - Line: 549
+2024-03-21 20:13:56,446 - __main__ - INFO - Data has been successfully written to PostgreSQL. - pipeline.py - Line: 43
+2024-03-21 20:13:56,446 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): discord.com:443 - connectionpool.py - Line: 1055
+2024-03-21 20:13:56,948 - urllib3.connectionpool - DEBUG - https://discord.com:443 "POST /api/webhooks/1219748387084308686/4YSc9snTiKezv9rioGeQKIY6JN3AwJmijsdhnsWOe2XWS70VhA1vRrrcDYliHvW38E8N HTTP/1.1" 204 0 - connectionpool.py - Line: 549
