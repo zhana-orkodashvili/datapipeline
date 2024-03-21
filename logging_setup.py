@@ -9,9 +9,9 @@ class DiscordHandler(logging.Handler):
         self.webhook_url = webhook_url
 
     def emit(self, record):
-        log_entry = self.format(record)
+        log = self.format(record)
         payload = {
-            "content": log_entry
+            "content": log
         }
         headers = {
             "Content-Type": "application/json"
@@ -26,6 +26,6 @@ class MessageFilter(logging.Filter):
 
     def filter(self, record):
         for w in self.words_to_filter.lower():
-            if w in record.msg:
+            if w in record.msg.lower():
                 return False
         return True
